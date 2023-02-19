@@ -1,0 +1,9 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 1,
+  "projects": {
+    "banshop": "apps/banshop",
+    "banshop-e2e": "apps/banshop-e2e",
+    "core": "libs/core"
+  }
+}

@@ -14,7 +14,34 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@banshop/core/api": ["libs/core/api/src/index.ts"],
+      "@banshop/core/environment": ["libs/core/environment/src/index.ts"],
+      "@banshop/core/forms/extract": ["libs/core/forms/extract/src/index.ts"],
+      "@banshop/core/forms/mask": ["libs/core/forms/mask/src/index.ts"],
+      "@banshop/core/forms/utils": ["libs/core/forms/utils/src/index.ts"],
+      "@banshop/core/hammer": ["libs/core/hammer/src/index.ts"],
+      "@banshop/core/layout": ["libs/core/layout/src/index.ts"],
+      "@banshop/core/meta/common": ["libs/core/meta/common/src/index.ts"],
+      "@banshop/core/meta/service": ["libs/core/meta/service/src/index.ts"],
+      "@banshop/core/meta/state": ["libs/core/meta/state/src/index.ts"],
+      "@banshop/core/navigation/common": ["libs/core/navigation/common/src/index.ts"],
+      "@banshop/core/navigation/service": ["libs/core/navigation/service/src/index.ts"],
+      "@banshop/core/navigation/ui/pipes": ["libs/core/navigation/ui/pipes/src/index.ts"],
+      "@banshop/core/platform": ["libs/core/platform/src/index.ts"],
+      "@banshop/core/storage/common": ["libs/core/storage/common/src/index.ts"],
+      "@banshop/core/storage/local": ["libs/core/storage/local/src/index.ts"],
+      "@banshop/core/storage/memory": ["libs/core/storage/memory/src/index.ts"],
+      "@banshop/core/storage/session": ["libs/core/storage/session/src/index.ts"],
+      "@banshop/core/store/root": ["libs/core/store/root/src/index.ts"],
+      "@banshop/core/testing": ["libs/core/testing/src/index.ts"],
+      "@banshop/core/utils/destroy": ["libs/core/utils/destroy/src/index.ts"],
+      "@banshop/core/utils/operators": ["libs/core/utils/operators/src/index.ts"],
+      "@banshop/core/utils/types": ["libs/core/utils/types/src/index.ts"],
+      "@banshop/core/window/service": ["libs/core/window/service/src/index.ts"],
+      "@banshop/ui/carousel": ["libs/ui/carousel/src/index.ts"],
+      "@banshop/ui/stylesheets": ["libs/ui/stylesheets/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
